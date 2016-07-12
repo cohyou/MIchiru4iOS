@@ -1,2 +1,2 @@
-# MIchiru4iOS
+# Michiru4iOS
 iOS App for nice scene in daily street
