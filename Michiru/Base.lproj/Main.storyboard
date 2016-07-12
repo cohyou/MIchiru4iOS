@@ -15,6 +15,44 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Scene1.png" translatesAutoresizingMaskIntoConstraints="NO" id="9a9-ZW-Imy">
+                                <rect key="frame" x="16" y="80" width="184" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Scene3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5hg-79-EA7">
+                                <rect key="frame" x="18" y="396" width="184" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Scene4.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="6hk-uS-vhz">
+                                <rect key="frame" x="182" y="553" width="184" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Scene2.png" translatesAutoresizingMaskIntoConstraints="NO" id="wXe-Mq-nKF">
+                                <rect key="frame" x="172" y="232" width="198" height="151"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="これ、何の花やっけ？こういう時に花の名前とか詳しいとカッコイイねんけどなあ。" translatesAutoresizingMaskIntoConstraints="NO" id="5vD-aI-bOd">
+                                <rect key="frame" x="214" y="80" width="152" height="141"/>
+                                <color key="backgroundColor" red="0.945016572" green="0.945016572" blue="0.945016572" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="冬でもないのに、やっぱりそこは快適なんでしょーか。" translatesAutoresizingMaskIntoConstraints="NO" id="GTE-Yo-bzF">
+                                <rect key="frame" x="18" y="232" width="141" height="151"/>
+                                <color key="backgroundColor" red="0.945016572" green="0.945016572" blue="0.945016572" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="個人的には、こういう閉まったシャッターとかも好みやけどね。" translatesAutoresizingMaskIntoConstraints="NO" id="Cqg-of-Bci">
+                                <rect key="frame" x="220" y="396" width="146" height="141"/>
+                                <color key="backgroundColor" red="0.945016572" green="0.945016572" blue="0.945016572" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="隠れてるけどこれは井戸らしい" translatesAutoresizingMaskIntoConstraints="NO" id="C1O-bY-rMy">
+                                <rect key="frame" x="18" y="553" width="146" height="151"/>
+                                <color key="backgroundColor" red="0.945016572" green="0.945016572" blue="0.945016572" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Michiru" id="DGC-D1-tgu"/>
@@ -39,4 +77,10 @@
             <point key="canvasLocation" x="-756" y="842"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Scene1.png" width="488" height="336"/>
+        <image name="Scene2.png" width="522" height="358"/>
+        <image name="Scene3.jpg" width="320" height="240"/>
+        <image name="Scene4.JPG" width="300" height="225"/>
+    </resources>
 </document>
