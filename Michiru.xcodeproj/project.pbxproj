@@ -11,12 +11,18 @@
 		1B1A28D71D353BDA00C9CB00 /* Scene2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A28D61D353BDA00C9CB00 /* Scene2.png */; };
 		1B1A28DB1D35405A00C9CB00 /* Scene3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A28DA1D35405A00C9CB00 /* Scene3.jpg */; };
 		1B1A28DD1D35413900C9CB00 /* Scene4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A28DC1D35413900C9CB00 /* Scene4.JPG */; };
+		1B2ECEA31D390EA100AA5AE0 /* config_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2ECEA21D390EA100AA5AE0 /* config_icon.png */; };
+		1B2ECEA51D39112700AA5AE0 /* japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2ECEA41D39112700AA5AE0 /* japan.png */; };
+		1B2ECEA71D3911D500AA5AE0 /* JapanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2ECEA61D3911D500AA5AE0 /* JapanController.swift */; };
 		1B7FB3EC1D340CEC001BBC9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FB3EB1D340CEC001BBC9B /* AppDelegate.swift */; };
 		1B7FB3EE1D340CEC001BBC9B /* FeedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FB3ED1D340CEC001BBC9B /* FeedListViewController.swift */; };
 		1B7FB3F11D340CEC001BBC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7FB3EF1D340CEC001BBC9B /* Main.storyboard */; };
 		1B7FB3F31D340CEC001BBC9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7FB3F21D340CEC001BBC9B /* Images.xcassets */; };
 		1B7FB3F61D340CEC001BBC9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B7FB3F41D340CEC001BBC9B /* LaunchScreen.xib */; };
 		1B7FB4021D340CEC001BBC9B /* MichiruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FB4011D340CEC001BBC9B /* MichiruTests.swift */; };
+		1BDEE1161D390A1100D788F0 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEE1151D390A1100D788F0 /* earth.png */; };
+		1BDEE1181D390B5000D788F0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDEE1171D390B5000D788F0 /* LoginController.swift */; };
+		1BDEE11C1D390D4800D788F0 /* marichan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEE11B1D390D4800D788F0 /* marichan.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 		1B1A28D61D353BDA00C9CB00 /* Scene2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scene2.png; sourceTree = "<group>"; };
 		1B1A28DA1D35405A00C9CB00 /* Scene3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scene3.jpg; sourceTree = "<group>"; };
 		1B1A28DC1D35413900C9CB00 /* Scene4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scene4.JPG; sourceTree = "<group>"; };
+		1B2ECEA21D390EA100AA5AE0 /* config_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = config_icon.png; sourceTree = "<group>"; };
+		1B2ECEA41D39112700AA5AE0 /* japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japan.png; sourceTree = "<group>"; };
+		1B2ECEA61D3911D500AA5AE0 /* JapanController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapanController.swift; sourceTree = "<group>"; };
 		1B7FB3E61D340CEC001BBC9B /* Michiru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Michiru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7FB3EA1D340CEC001BBC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B7FB3EB1D340CEC001BBC9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +53,9 @@
 		1B7FB3FB1D340CEC001BBC9B /* MichiruTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MichiruTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7FB4001D340CEC001BBC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B7FB4011D340CEC001BBC9B /* MichiruTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiruTests.swift; sourceTree = "<group>"; };
+		1BDEE1151D390A1100D788F0 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		1BDEE1171D390B5000D788F0 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		1BDEE11B1D390D4800D788F0 /* marichan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marichan.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +97,18 @@
 		1B7FB3E81D340CEC001BBC9B /* Michiru */ = {
 			isa = PBXGroup;
 			children = (
+				1B2ECEA41D39112700AA5AE0 /* japan.png */,
+				1B2ECEA21D390EA100AA5AE0 /* config_icon.png */,
+				1BDEE11B1D390D4800D788F0 /* marichan.jpg */,
+				1BDEE1151D390A1100D788F0 /* earth.png */,
 				1B1A28D41D353BD400C9CB00 /* Scene1.png */,
 				1B1A28D61D353BDA00C9CB00 /* Scene2.png */,
 				1B1A28DA1D35405A00C9CB00 /* Scene3.jpg */,
 				1B1A28DC1D35413900C9CB00 /* Scene4.JPG */,
 				1B7FB3EB1D340CEC001BBC9B /* AppDelegate.swift */,
+				1BDEE1171D390B5000D788F0 /* LoginController.swift */,
 				1B7FB3ED1D340CEC001BBC9B /* FeedListViewController.swift */,
+				1B2ECEA61D3911D500AA5AE0 /* JapanController.swift */,
 				1B7FB3EF1D340CEC001BBC9B /* Main.storyboard */,
 				1B7FB3F21D340CEC001BBC9B /* Images.xcassets */,
 				1B7FB3F41D340CEC001BBC9B /* LaunchScreen.xib */,
@@ -168,6 +186,7 @@
 		1B7FB3DE1D340CEC001BBC9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = ironoir;
 				TargetAttributes = {
@@ -204,11 +223,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2ECEA51D39112700AA5AE0 /* japan.png in Resources */,
+				1BDEE1161D390A1100D788F0 /* earth.png in Resources */,
 				1B1A28DD1D35413900C9CB00 /* Scene4.JPG in Resources */,
 				1B7FB3F11D340CEC001BBC9B /* Main.storyboard in Resources */,
 				1B1A28D51D353BD400C9CB00 /* Scene1.png in Resources */,
 				1B7FB3F61D340CEC001BBC9B /* LaunchScreen.xib in Resources */,
 				1B1A28DB1D35405A00C9CB00 /* Scene3.jpg in Resources */,
+				1B2ECEA31D390EA100AA5AE0 /* config_icon.png in Resources */,
+				1BDEE11C1D390D4800D788F0 /* marichan.jpg in Resources */,
 				1B1A28D71D353BDA00C9CB00 /* Scene2.png in Resources */,
 				1B7FB3F31D340CEC001BBC9B /* Images.xcassets in Resources */,
 			);
@@ -229,6 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7FB3EE1D340CEC001BBC9B /* FeedListViewController.swift in Sources */,
+				1BDEE1181D390B5000D788F0 /* LoginController.swift in Sources */,
+				1B2ECEA71D3911D500AA5AE0 /* JapanController.swift in Sources */,
 				1B7FB3EC1D340CEC001BBC9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

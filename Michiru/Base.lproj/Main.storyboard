@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="311-26-tnl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="311-26-tnl">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--Michiru-->
@@ -60,6 +61,92 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="3NS-XA-bT5">
+            <objects>
+                <viewController id="3no-Cg-SbB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MOw-Lv-1pg"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ZS-pb-66V"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Enn-Ev-5Vw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="原田 真里" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMN-gn-aRr">
+                                <rect key="frame" x="20" y="103" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marichan.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gXG-hP-Hk6">
+                                <rect key="frame" x="146" y="103" width="202" height="196"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAi-Zc-2Ou">
+                                <rect key="frame" x="138" y="415" width="110" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="一覧へ"/>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="tka-he-tkM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jqb-1M-gmK">
+                        <barButtonItem key="rightBarButtonItem" image="config_icon.png" id="FLK-W9-jxm">
+                            <connections>
+                                <segue destination="MXD-Qq-7xw" kind="presentation" id="TQt-vM-FQ2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r8s-pD-CW2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1000" y="1119"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lPh-ah-5GJ">
+            <objects>
+                <navigationController id="MXD-Qq-7xw" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h3z-zL-Z3O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nDY-vo-gMl" kind="relationship" relationship="rootViewController" id="j9v-pH-RZR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6dj-8U-g2y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1049" y="1690"/>
+        </scene>
+        <!--Japan Controller-->
+        <scene sceneID="I4x-6T-W3X">
+            <objects>
+                <viewController id="nDY-vo-gMl" customClass="JapanController" customModule="Michiru" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1gh-wd-l4c"/>
+                        <viewControllerLayoutGuide type="bottom" id="QdD-TG-wAR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lr6-Lp-e1y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="japan.png" translatesAutoresizingMaskIntoConstraints="NO" id="7F7-dP-dqX">
+                                <rect key="frame" x="26" y="96" width="310" height="310"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OUH-fV-AZQ">
+                        <barButtonItem key="rightBarButtonItem" title="閉じる" id="hSb-oA-EfU"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GJd-Oc-LCT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-351" y="1690"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="pD7-fA-JOb">
             <objects>
@@ -69,7 +156,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Rsc-aM-m6J"/>
+                        <segue destination="3no-Cg-SbB" kind="relationship" relationship="rootViewController" id="wy8-IV-t40"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SuE-Dw-oFI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -82,5 +169,8 @@
         <image name="Scene2.png" width="522" height="358"/>
         <image name="Scene3.jpg" width="320" height="240"/>
         <image name="Scene4.JPG" width="300" height="225"/>
+        <image name="config_icon.png" width="32" height="32"/>
+        <image name="japan.png" width="345" height="337"/>
+        <image name="marichan.jpg" width="450" height="448"/>
     </resources>
 </document>
